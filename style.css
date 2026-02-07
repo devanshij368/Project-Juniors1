@@ -1,13 +1,29 @@
+/* General page Style */
+
 body {
   margin: 0;
   padding: 0;
-  font-size: 32px;
+  font-size: 29x;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e2bfcd;
+  color: #000000;
+}
+/* Headings */
+h2{
+  margin: 20px;
+  text-align: center;
+  color:#851a5d
+
+}
+/* Paragraphs */
+P{
+  margin: 10px auto;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.6;
 }
 
-h2, p {
-  margin: 10px;
-}
-
+/* Navigation Bar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -15,8 +31,48 @@ ul {
   overflow: hidden;
   background-color: #333333;
  
-  top: 0;
+  
 }
+
+/*Home Page main image */
+.home-image{
+  display:block;
+  margin: 80px auto;
+  width:100%;
+  max-width: 1500px;
+
+}
+/* Everyday Makeup layout */
+.side-layout{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+.side-image{
+  width: 25%;
+  max-width: 300px;
+ 
+}
+
+.center-text{
+  width: 45%;
+  text-align: center;
+ 
+}
+
+
+/* Page main image */
+.page-image{
+  display:block;
+  margin: 40px auto;
+  width: auto;
+  height: auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
 
 /* drop down setting*/
 li {
