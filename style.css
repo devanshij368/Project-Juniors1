@@ -3,16 +3,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 29x;
+  font-size: 42x;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e2bfcd;
   color: #000000;
 }
 /* Headings */
 h2{
-  margin: 20px;
+  margin: 100px;
   text-align: center;
-  color:#851a5d
+  color:#851a5d;
 
 }
 /* Paragraphs */
@@ -50,8 +50,8 @@ ul {
   max-width: 1200px;
 }
 .side-image{
-  width: 25%;
-  max-width: 300px;
+  width: 50%;
+  max-width: 400px;
   height: auto;
  
 }
